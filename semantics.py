@@ -30,13 +30,6 @@ for token1 in tokens:
 # the similarity between car and boat is high as they are both vehicles.
 
 
-# sentence_to_compare = "Why is my cat on the car"
-# sentences = ["where did my dog go", "Hello, there is my car", "I've lost my car in my car", "I'd like my boat back", "I will name my dog Diana"]
-# model_sentence = nlp(sentence_to_compare)
-
-# for sentence in sentences:
-#     similarity = nlp(sentence).similarity(model_sentence)
-#     print(sentence + " - ", similarity)
-
-
-
+# Run the example file with the simpler language model 'en_core_web_sm', and write a note on what you notice is different from the model 'en_core_web_md'.
+# Looks like the sm model is less accurate than the md model.
+# The sm model is less accurate as it is a smaller model and does not have as much data as the md model.
